@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.card {
+    background: white;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+
+.info h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.info h2 {
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.github {
+    background-color: #333;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+/* Efecto hover */
+.github:hover {
+    background-color: #222;
+}
+
+.instagram:hover {
+    background-color: #C13584;
+}
+
+.facebook:hover {
+    background-color: #0e5a8a;
+}
+
+
+.email {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+}
